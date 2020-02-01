@@ -1,0 +1,12 @@
+@import 'utils';
+
+.header {
+  background: $oc-gray-5;
+  .hearder-content {
+    height: 5rem;
+    width: 1400px;
+    margin: 0 auto; //가운데 정렬
+
+  }
+;
+}
