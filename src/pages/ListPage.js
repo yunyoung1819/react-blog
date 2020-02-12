@@ -4,7 +4,9 @@ import PageTemplate from '../components/common/PageTemplate';
 const ListPage = () => {
     return (
         <PageTemplate>
-            List
+            <ListWrapper>
+                리스트
+            </ListWrapper>
         </PageTemplate>
     );
 };
