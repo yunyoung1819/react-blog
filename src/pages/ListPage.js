@@ -1,5 +1,6 @@
 import React from 'react';
 import PageTemplate from '../components/common/PageTemplate';
+import ListWrapper from '../components/list/ListWrapper/ListWrapper';
 
 const ListPage = () => {
     return (
