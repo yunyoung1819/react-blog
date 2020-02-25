@@ -11,7 +11,7 @@ const PostItem = () => {
             <h2><a>타이틀</a></h2>
             <div className={cx('date')}>2020-02-23</div>
             <p>내용</p>
-            <div className={cx('tag')}>
+            <div className={cx('tags')}>
                 <a>#태그</a>
                 <a>#태그</a>
                 <a>#태그</a>
