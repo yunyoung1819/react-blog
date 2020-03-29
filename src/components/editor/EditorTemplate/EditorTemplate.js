@@ -37,7 +37,7 @@ class EditorTemplate extends Component {
         const leftStyle = {
             flex: leftPercentage
         };
-        const rightStype = {
+        const rightStyle = {
             flex: 1 - leftPercentage
         };
         // seprator 위치 설정

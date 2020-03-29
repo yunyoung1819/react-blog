@@ -2,10 +2,18 @@
   .panes {
     height: calc(100vh - 4rem); //페이지 높이에서 EditorHeader 크기 빼기
     display: flex;
-    background: #f1f3f5;
+    position: relative;
     .pane {
       display: flex;
-      flex: 1;
+      min-width: 0;
+      overflow: autho;
+    }
+    .separator {
+      width: 1rem;
+      height: 100%;
+      position: absolute;
+      transform: translate(-50%);
+      cursor: col-resize;
     }
   }
 }
